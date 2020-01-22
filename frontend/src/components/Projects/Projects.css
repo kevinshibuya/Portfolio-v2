@@ -1,0 +1,23 @@
+.container.projects {
+    background-color: #EDEDEF;
+    /* z-index: 1; */
+    /* margin-top: 100vh; */
+    position: relative;
+}
+
+.container.projects .title {
+    text-align: center;
+    font-size: 64px;
+    background: #f81f01;
+    background: -webkit-linear-gradient(145deg,#f81f01,#ee076e);
+    background: -webkit-linear-gradient(305deg,#f81f01,#ee076e);
+    background: linear-gradient(145deg,#f81f01,#ee076e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

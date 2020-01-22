@@ -1,0 +1,70 @@
+.container.landing {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../../assets/background-1.jpg) no-repeat center;
+    background-size: cover;
+    /* z-index: -1; */
+    -webkit-box-shadow: inset -21px -31px 66px -16px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset -21px -31px 66px -16px rgba(0,0,0,0.2);
+    box-shadow: inset -21px -31px 66px -16px rgba(0,0,0,0.2);
+}
+
+.container .title {
+    font-size: 72px;
+    color: #010101;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    width: 100%;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.container .subtitle {
+    font-size: 20px;
+    color: #4D4D4D;
+    /* width: 40vw; */
+}
+
+.container .container-buttons {
+    margin: 0px -15px;
+}
+
+.container .button {
+    font-size: 16px;
+    margin: 20px 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.container .main-button {
+    border: 2px solid #f9004d;
+    background: #f9004d;
+    color: #fff;
+}
+
+.container .secondary-button {
+    background: transparent;
+    border: 2px solid #b1b4c1;
+    color: #1f1f25;
+}
+
+.container .main-button:hover {
+    background: transparent;
+    color: #f9004d;
+}
+
+.container .secondary-button:hover {
+    background: #1f1f25;
+    border: 2px solid #1f1f25;
+    color: #fff;
+}

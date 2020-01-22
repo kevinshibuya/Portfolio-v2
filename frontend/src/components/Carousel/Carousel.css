@@ -1,0 +1,30 @@
+.project-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 400px;
+    background: #444444;
+    margin: 20px;
+    border-radius: 20px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    padding: 20px;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-img {
+    position: absolute;
+}
+
+.project-link {
+    font-size: 12px!important;
+    padding: 10px 20px!important;
+    float: left;
+}
